@@ -4,3 +4,7 @@
 .checked {
   text-decoration: line-through;
 }
+img {
+  width: 1000px;
+  height: 1000px;
+}
