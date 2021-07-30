@@ -8,7 +8,7 @@ const temp = document.querySelector(".wheather span:last-child");
 function paintWheather(w){
     city.innerHTML = `${w.name}`;
     wheather.innerHTML = `${w.weather[0].main}`;
-    temp.innerHTML = `${w.main.temp}`;
+    temp.innerHTML = `${parseInt(w.main.temp)}도`;
 }
 
 function geoSuccess(position){
