@@ -1,0 +1,19 @@
+.greeting__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 550;
+}
+.rename {
+  margin-left: 20px;
+  background: none;
+  border: none;
+}
+.greeting__box button {
+  color: white;
+  font-size: 18px;
+}
+.greeting__box button:hover {
+  cursor: pointer;
+}

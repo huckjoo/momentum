@@ -1,0 +1,12 @@
+.quote {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  width: 100%;
+}
+.quote span:first-child {
+  margin-bottom: 10px;
+}
